@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { preprocess } from './extractors/index.ts';
 import { score } from './scorer.ts';
 import { createStorage, generateSessionId, type SessionRecord } from './storage.ts';
+import { renderDashboard } from './views/dashboard.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataDir = join(__dirname, '..', 'data');
@@ -42,19 +43,10 @@ app.post('/capture', async (req, res) => {
   }
 });
 
-// Dashboard — STUB. Task 12 replaces this with a pretty ranked list.
+// Dashboard — ranked list of sessions by severity.
 app.get('/', async (_req, res) => {
   const sessions = await storage.listSessions();
-  const rows = sessions.map(s =>
-    `<li><a href="/sessions/${s.id}">session-${s.id}</a> — score ${s.score.score} (${s.score.bucket}) — ${s.score.topReasons.join(' · ') || 'no signals'}</li>`
-  ).join('\n');
-  res.set('Content-Type', 'text/html').send(`<!DOCTYPE html>
-<html><head><title>Providence V2 (stub)</title></head>
-<body style="font-family:ui-monospace,monospace;max-width:900px;margin:40px auto;padding:0 20px">
-  <h1>Providence V2 — sessions (stub)</h1>
-  <p style="color:#888">Dashboard stub — Task 12 will make this pretty. Lab page: <a href="/app.html">/app.html</a></p>
-  <ol>${rows || '<p>No sessions captured yet. Visit <a href="/app.html">/app.html</a>, click some buttons, then click "Stop &amp; Send".</p>'}</ol>
-</body></html>`);
+  res.set('Content-Type', 'text/html').send(renderDashboard(sessions));
 });
 
 // Session detail — STUB. Task 13 replaces this with a timeline + LLM explainer.
