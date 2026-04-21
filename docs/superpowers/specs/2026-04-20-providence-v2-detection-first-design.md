@@ -230,6 +230,8 @@ Estimated time in parentheses. Totals ~12 hours.
 - **Rage click thresholds** (≥4 clicks / 1000ms) are guesses. May need tuning.
 - **LLM explainer hallucination risk** is mitigated by prompt + evidence grounding but not eliminated. The UI label "(AI, grounded in signals above)" is the honest hedge.
 - **Auto-refresh** is a UX cop-out. If it feels bad during smoke test, the 30-minute path to improvement is polling `/sessions.json` with a tiny script tag.
+- **LLM explainer value on short sessions.** Noticed during Task 13 build: on sessions with few signals (≤3), the explainer restates evidence rather than produces insight. Its grounding constraints ("reference only signals in input") leave nothing to interpret when there are only 1–2 signals. The evidence timeline alone is faster to read than a paragraph that paraphrases it. V3 should either (a) skip the LLM when signal count is below a threshold, (b) tighten the prompt to require causal inference rather than restatement, or (c) drop the LLM entirely per §10's V3a option.
+- **LLM explainer latency feels like dead time.** Waiting ~2–5s for the detail page to render while the LLM call completes is annoying on every click. Potential V3 shape: **precompute explainers asynchronously at capture time, but only for the top-N highest-scoring sessions (e.g., N=10).** That caps API cost at N per refresh cycle rather than per-session-ever-clicked, eliminates the perceived latency (the paragraph is already saved when the user opens the page), and acknowledges that most low-bucket sessions are never investigated anyway. Combines with the previous note — threshold-gate who gets an explainer, precompute-in-background who gets one.
 
 ## 15. Success criteria
 
