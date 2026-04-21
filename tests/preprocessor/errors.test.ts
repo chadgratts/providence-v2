@@ -1,7 +1,14 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, join } from 'node:path';
 import { extractErrorSignals } from '../../src/preprocessor/errors.ts';
 import type { RawEvent } from '../../src/preprocessor/types.ts';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const fixture = (name: string): RawEvent[] =>
+  JSON.parse(readFileSync(join(__dirname, '..', 'fixtures', name), 'utf8'));
 
 test('extracts js_error from type 52 events', () => {
   const events: RawEvent[] = [
@@ -42,5 +49,14 @@ test('ignores unrelated events', () => {
     { type: 2, timestamp: 0, data: {} },
     { type: 3, timestamp: 0, data: {} },
   ];
+  assert.deepEqual(extractErrorSignals(events), []);
+});
+
+// Integration test against real V1 capture — 164 events, no type 52/53.
+// Proves: (1) doesn't crash on real rrweb data, (2) correctly emits zero signals
+// when the session has no errors/rejections.
+test('real V1 session → zero error signals (no false positives)', () => {
+  const events = fixture('v1-session.json');
+  assert.ok(events.length > 0, 'fixture should have events');
   assert.deepEqual(extractErrorSignals(events), []);
 });

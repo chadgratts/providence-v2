@@ -1,0 +1,2616 @@
+[
+  {
+    "type": 51,
+    "timestamp": 1776615385177,
+    "data": {
+      "url": "http://localhost:3000/",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "language": "en-US",
+      "platform": "MacIntel"
+    }
+  },
+  {
+    "type": 4,
+    "data": {
+      "href": "http://localhost:3000/",
+      "width": 1512,
+      "height": 857
+    },
+    "timestamp": 1776615385177
+  },
+  {
+    "type": 2,
+    "data": {
+      "node": {
+        "type": 0,
+        "childNodes": [
+          {
+            "type": 1,
+            "name": "html",
+            "publicId": "",
+            "systemId": "",
+            "id": 2
+          },
+          {
+            "type": 2,
+            "tagName": "html",
+            "attributes": {
+              "lang": "en"
+            },
+            "childNodes": [
+              {
+                "type": 2,
+                "tagName": "head",
+                "attributes": {},
+                "childNodes": [
+                  {
+                    "type": 3,
+                    "textContent": "\n    ",
+                    "id": 5
+                  },
+                  {
+                    "type": 2,
+                    "tagName": "meta",
+                    "attributes": {
+                      "charset": "UTF-8"
+                    },
+                    "childNodes": [],
+                    "id": 6
+                  },
+                  {
+                    "type": 3,
+                    "textContent": "\n    ",
+                    "id": 7
+                  },
+                  {
+                    "type": 2,
+                    "tagName": "meta",
+                    "attributes": {
+                      "name": "viewport",
+                      "content": "width=device-width, initial-scale=1.0"
+                    },
+                    "childNodes": [],
+                    "id": 8
+                  },
+                  {
+                    "type": 3,
+                    "textContent": "\n    ",
+                    "id": 9
+                  },
+                  {
+                    "type": 2,
+                    "tagName": "title",
+                    "attributes": {},
+                    "childNodes": [
+                      {
+                        "type": 3,
+                        "textContent": "Providence Essence",
+                        "id": 11
+                      }
+                    ],
+                    "id": 10
+                  },
+                  {
+                    "type": 3,
+                    "textContent": "\n    ",
+                    "id": 12
+                  },
+                  {
+                    "type": 2,
+                    "tagName": "style",
+                    "attributes": {},
+                    "childNodes": [
+                      {
+                        "type": 3,
+                        "textContent": "body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0px 20px; }.section { margin: 24px 0px; padding: 16px; border: 1px solid rgb(221, 221, 221); border-radius: 8px; }button { padding: 8px 16px; margin: 4px; cursor: pointer; }input, textarea { padding: 8px; width: 100%; box-sizing: border-box; margin: 4px 0px; }#controls { position: fixed; top: 0px; left: 0px; right: 0px; background: rgb(17, 17, 17); color: rgb(255, 255, 255); padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; z-index: 999; }#event-count { font-family: monospace; }.tall { height: 800px; background: linear-gradient(rgb(240, 240, 240), rgb(255, 255, 255)); padding: 20px; }",
+                        "isStyle": true,
+                        "id": 14
+                      }
+                    ],
+                    "id": 13
+                  },
+                  {
+                    "type": 3,
+                    "textContent": "\n  ",
+                    "id": 15
+                  }
+                ],
+                "id": 4
+              },
+              {
+                "type": 3,
+                "textContent": "\n  ",
+                "id": 16
+              },
+              {
+                "type": 2,
+                "tagName": "body",
+                "attributes": {},
+                "childNodes": [
+                  {
+                    "type": 3,
+                    "textContent": "\n    ",
+                    "id": 18
+                  },
+                  {
+                    "type": 2,
+                    "tagName": "div",
+                    "attributes": {
+                      "class": "rr-block",
+                      "rr_width": "1497px",
+                      "rr_height": "67.5px"
+                    },
+                    "childNodes": [],
+                    "id": 19
+                  },
+                  {
+                    "type": 3,
+                    "textContent": "\n\n    ",
+                    "id": 20
+                  },
+                  {
+                    "type": 2,
+                    "tagName": "h1",
+                    "attributes": {
+                      "style": "margin-top: 60px;"
+                    },
+                    "childNodes": [
+                      {
+                        "type": 3,
+                        "textContent": "Providence Essence",
+                        "id": 22
+                      }
+                    ],
+                    "id": 21
+                  },
+                  {
+                    "type": 3,
+                    "textContent": "\n\n    ",
+                    "id": 23
+                  },
+                  {
+                    "type": 2,
+                    "tagName": "div",
+                    "attributes": {
+                      "class": "section"
+                    },
+                    "childNodes": [
+                      {
+                        "type": 3,
+                        "textContent": "\n      ",
+                        "id": 25
+                      },
+                      {
+                        "type": 2,
+                        "tagName": "h2",
+                        "attributes": {},
+                        "childNodes": [
+                          {
+                            "type": 3,
+                            "textContent": "Form Inputs",
+                            "id": 27
+                          }
+                        ],
+                        "id": 26
+                      },
+                      {
+                        "type": 3,
+                        "textContent": "\n      ",
+                        "id": 28
+                      },
+                      {
+                        "type": 2,
+                        "tagName": "input",
+                        "attributes": {
+                          "type": "text",
+                          "placeholder": "Type something here..."
+                        },
+                        "childNodes": [],
+                        "id": 29
+                      },
+                      {
+                        "type": 3,
+                        "textContent": "\n      ",
+                        "id": 30
+                      },
+                      {
+                        "type": 2,
+                        "tagName": "textarea",
+                        "attributes": {
+                          "placeholder": "And here..."
+                        },
+                        "childNodes": [],
+                        "id": 31
+                      },
+                      {
+                        "type": 3,
+                        "textContent": "\n      ",
+                        "id": 32
+                      },
+                      {
+                        "type": 2,
+                        "tagName": "label",
+                        "attributes": {},
+                        "childNodes": [
+                          {
+                            "type": 2,
+                            "tagName": "input",
+                            "attributes": {
+                              "type": "checkbox"
+                            },
+                            "childNodes": [],
+                            "id": 34
+                          },
+                          {
+                            "type": 3,
+                            "textContent": " Check me",
+                            "id": 35
+                          }
+                        ],
+                        "id": 33
+                      },
+                      {
+                        "type": 3,
+                        "textContent": "\n    ",
+                        "id": 36
+                      }
+                    ],
+                    "id": 24
+                  },
+                  {
+                    "type": 3,
+                    "textContent": "\n\n    ",
+                    "id": 37
+                  },
+                  {
+                    "type": 2,
+                    "tagName": "div",
+                    "attributes": {
+                      "class": "section"
+                    },
+                    "childNodes": [
+                      {
+                        "type": 3,
+                        "textContent": "\n      ",
+                        "id": 39
+                      },
+                      {
+                        "type": 2,
+                        "tagName": "h2",
+                        "attributes": {},
+                        "childNodes": [
+                          {
+                            "type": 3,
+                            "textContent": "Buttons",
+                            "id": 41
+                          }
+                        ],
+                        "id": 40
+                      },
+                      {
+                        "type": 3,
+                        "textContent": "\n      ",
+                        "id": 42
+                      },
+                      {
+                        "type": 2,
+                        "tagName": "button",
+                        "attributes": {
+                          "onclick": "document.getElementById('output').textContent = 'Clicked!'"
+                        },
+                        "childNodes": [
+                          {
+                            "type": 3,
+                            "textContent": "Click me",
+                            "id": 44
+                          }
+                        ],
+                        "id": 43
+                      },
+                      {
+                        "type": 3,
+                        "textContent": "\n      ",
+                        "id": 45
+                      },
+                      {
+                        "type": 2,
+                        "tagName": "button",
+                        "attributes": {
+                          "onclick": "throw new Error('Intentional test error')"
+                        },
+                        "childNodes": [
+                          {
+                            "type": 3,
+                            "textContent": "Throw Error",
+                            "id": 47
+                          }
+                        ],
+                        "id": 46
+                      },
+                      {
+                        "type": 3,
+                        "textContent": "\n      ",
+                        "id": 48
+                      },
+                      {
+                        "type": 2,
+                        "tagName": "p",
+                        "attributes": {
+                          "id": "output"
+                        },
+                        "childNodes": [],
+                        "id": 49
+                      },
+                      {
+                        "type": 3,
+                        "textContent": "\n    ",
+                        "id": 50
+                      }
+                    ],
+                    "id": 38
+                  },
+                  {
+                    "type": 3,
+                    "textContent": "\n\n    ",
+                    "id": 51
+                  },
+                  {
+                    "type": 2,
+                    "tagName": "div",
+                    "attributes": {
+                      "class": "section tall"
+                    },
+                    "childNodes": [
+                      {
+                        "type": 3,
+                        "textContent": "\n      ",
+                        "id": 53
+                      },
+                      {
+                        "type": 2,
+                        "tagName": "h2",
+                        "attributes": {},
+                        "childNodes": [
+                          {
+                            "type": 3,
+                            "textContent": "Scroll Zone",
+                            "id": 55
+                          }
+                        ],
+                        "id": 54
+                      },
+                      {
+                        "type": 3,
+                        "textContent": "\n      ",
+                        "id": 56
+                      },
+                      {
+                        "type": 2,
+                        "tagName": "p",
+                        "attributes": {},
+                        "childNodes": [
+                          {
+                            "type": 3,
+                            "textContent": "Scroll down through this tall section to generate scroll events",
+                            "id": 58
+                          }
+                        ],
+                        "id": 57
+                      },
+                      {
+                        "type": 3,
+                        "textContent": "\n    ",
+                        "id": 59
+                      }
+                    ],
+                    "id": 52
+                  },
+                  {
+                    "type": 3,
+                    "textContent": "\n    ",
+                    "id": 60
+                  },
+                  {
+                    "type": 2,
+                    "tagName": "script",
+                    "attributes": {
+                      "type": "module",
+                      "src": "http://localhost:3000/agent.js"
+                    },
+                    "childNodes": [],
+                    "id": 61
+                  },
+                  {
+                    "type": 3,
+                    "textContent": "\n  \n",
+                    "id": 62
+                  }
+                ],
+                "id": 17
+              }
+            ],
+            "id": 3
+          }
+        ],
+        "id": 1
+      },
+      "initialOffset": {
+        "left": 0,
+        "top": 0
+      }
+    },
+    "timestamp": 1776615385179
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 0,
+      "texts": [],
+      "attributes": [],
+      "removes": [],
+      "adds": [
+        {
+          "parentId": 17,
+          "nextId": null,
+          "node": {
+            "type": 2,
+            "tagName": "div",
+            "attributes": {
+              "id": "egaeaiacdagafaddbcfdeibdifffiefd",
+              "style": "color-scheme: initial; forced-color-adjust: initial; math-depth: initial; position-anchor: initial; text-size-adjust: initial; appearance: initial; color: initial; font: initial; font-palette: initial; font-synthesis: initial; position-area: initial; text-orientation: initial; text-rendering: initial; text-spacing-trim: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; anchor-name: initial; anchor-scope: initial; animation-composition: initial; animation: initial; animation-trigger: initial; app-region: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: initial; background-blend-mode: initial; baseline-shift: initial; baseline-source: initial; block-size: initial; border-block: initial; border: initial; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-shape: initial; border-start-end-radius: initial; border-start-start-radius: initial; inset: initial; box-decoration-break: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-animation: initial; caret-color: initial; caret-shape: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; corner-shape: initial; corner-block-end-shape: initial; corner-block-start-shape: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: initial; dominant-baseline: initial; dynamic-range-limit: initial; empty-cells: initial; field-sizing: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; hyphenate-character: initial; hyphenate-limit-chars: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; initial-letter: initial; inline-size: initial; inset-block: initial; inset-inline: initial; interactivity: initial; interest-delay: initial; interpolate-size: initial; isolation: initial; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask: initial; mask-type: initial; math-shift: initial; math-style: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: initial; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: initial; order: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-block: initial; overflow-clip-margin: initial; overflow-inline: initial; overflow-wrap: initial; overflow: initial; overlay: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position-try: initial; position-visibility: initial; print-color-adjust: initial; quotes: initial; r: initial; reading-flow: initial; reading-order: initial; resize: initial; rotate: initial; ruby-align: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-initial-target: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-marker-group: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scroll-target-group: initial; scroll-timeline: initial; scrollbar-color: initial; scrollbar-gutter: initial; scrollbar-width: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-autospace: initial; text-box: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-justify: initial; text-overflow: initial; text-shadow: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; text-wrap: initial; timeline-scope: initial; timeline-trigger: initial; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; translate: initial; trigger-scope: initial; user-select: initial; vector-effect: initial; vertical-align: initial; view-timeline: initial; view-transition-class: initial; view-transition-group: initial; view-transition-name: initial; view-transition-scope: initial; visibility: initial; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; white-space-collapse: initial; widows: initial; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; position: relative; z-index: 2147483647; width: 0px !important; height: 0px !important;"
+            },
+            "childNodes": [],
+            "id": 63
+          }
+        },
+        {
+          "parentId": 63,
+          "nextId": null,
+          "node": {
+            "type": 2,
+            "tagName": "div",
+            "attributes": {
+              "class": "dbbefcebdgbhfgfbbfhehfbeecicifhc",
+              "style": "all: initial;"
+            },
+            "childNodes": [],
+            "id": 64
+          }
+        },
+        {
+          "parentId": 4,
+          "nextId": null,
+          "node": {
+            "type": 2,
+            "tagName": "style",
+            "attributes": {
+              "type": "text/css"
+            },
+            "childNodes": [],
+            "id": 65
+          }
+        },
+        {
+          "parentId": 65,
+          "nextId": null,
+          "node": {
+            "type": 3,
+            "textContent": "@font-face { font-family: Roboto; src: url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-100.woff\") format(\"woff\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-100.woff2\") format(\"woff2\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-100.ttf\") format(\"truetype\"); font-style: normal; font-weight: 100; font-display: swap; }@font-face { font-family: Roboto; src: url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-300.woff\") format(\"woff\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-300.woff2\") format(\"woff2\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-300.ttf\") format(\"truetype\"); font-style: normal; font-weight: 300; font-display: swap; }@font-face { font-family: Roboto; src: url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-400.woff\") format(\"woff\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-400.woff2\") format(\"woff2\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-400.ttf\") format(\"truetype\"); font-style: normal; font-weight: 400; font-display: swap; }@font-face { font-family: Roboto; src: url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-500.woff\") format(\"woff\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-500.woff2\") format(\"woff2\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-500.ttf\") format(\"truetype\"); font-style: normal; font-weight: 500; font-display: swap; }@font-face { font-family: Roboto; src: url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-700.woff\") format(\"woff\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-700.woff2\") format(\"woff2\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-700.ttf\") format(\"truetype\"); font-style: normal; font-weight: 700; font-display: swap; }@font-face { font-family: Roboto; src: url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-900.woff\") format(\"woff\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-900.woff2\") format(\"woff2\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-900.ttf\") format(\"truetype\"); font-style: normal; font-weight: 900; font-display: swap; }@font-face { font-family: Rebond; src: url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-400.woff\") format(\"woff\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-400.woff2\") format(\"woff2\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-400.ttf\") format(\"truetype\"); font-style: normal; font-weight: 400; font-display: swap; }@font-face { font-family: Rebond; src: url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-500.woff\") format(\"woff\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-500.woff2\") format(\"woff2\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-500.ttf\") format(\"truetype\"); font-style: normal; font-weight: 500; font-display: swap; }@font-face { font-family: Rebond; src: url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-600.woff\") format(\"woff\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-600.woff2\") format(\"woff2\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-600.ttf\") format(\"truetype\"); font-style: normal; font-weight: 600; font-display: swap; }@font-face { font-family: Rebond; src: url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-700.woff\") format(\"woff\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-700.woff2\") format(\"woff2\"), url(\"http://localhost:3000/chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-700.ttf\") format(\"truetype\"); font-style: normal; font-weight: 700; font-display: swap; }#__wikibuy__ .__wikibuy.__onTop, body ~ div:not(#gdx-bubble-host), #piggyWrapper, #honeyContainer, #earny-root { position: absolute !important; z-index: 100000 !important; }.mm-slideout { z-index: initial; }.sorry-for-this__empty-styles { position: relative; z-index: 10000; }#egaeaiacdagafaddbcfdeibdifffiefd div:empty { display: block !important; }",
+            "isStyle": true,
+            "id": 66
+          }
+        },
+        {
+          "parentId": 17,
+          "nextId": 63,
+          "node": {
+            "type": 2,
+            "tagName": "div",
+            "attributes": {
+              "id": "krm_desktop_extension"
+            },
+            "childNodes": [],
+            "id": 67
+          }
+        }
+      ]
+    },
+    "timestamp": 1776615385219
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 0,
+      "texts": [],
+      "attributes": [],
+      "removes": [],
+      "adds": [
+        {
+          "parentId": 4,
+          "nextId": null,
+          "node": {
+            "type": 2,
+            "tagName": "style",
+            "attributes": {
+              "data-styled": "active",
+              "data-styled-version": "5.3.9"
+            },
+            "childNodes": [],
+            "id": 68
+          }
+        },
+        {
+          "parentId": 68,
+          "nextId": null,
+          "node": {
+            "type": 3,
+            "textContent": ".uAvZw{font-family:rebond;font-weight:700;}",
+            "isStyle": true,
+            "id": 69
+          }
+        },
+        {
+          "parentId": 68,
+          "nextId": 69,
+          "node": {
+            "type": 3,
+            "textContent": ".uAvZx{font-family:rebond;font-weight:600;}",
+            "isStyle": true,
+            "id": 70
+          }
+        },
+        {
+          "parentId": 68,
+          "nextId": 70,
+          "node": {
+            "type": 3,
+            "textContent": ".uAvZu{font-family:rebond;font-weight:500;}",
+            "isStyle": true,
+            "id": 71
+          }
+        },
+        {
+          "parentId": 68,
+          "nextId": 71,
+          "node": {
+            "type": 3,
+            "textContent": ".uAvZv{font-family:rebond;font-weight:400;}",
+            "isStyle": true,
+            "id": 72
+          }
+        },
+        {
+          "parentId": 68,
+          "nextId": 72,
+          "node": {
+            "type": 3,
+            "textContent": ".igvzJl{font-family:roboto;font-weight:900;}",
+            "isStyle": true,
+            "id": 73
+          }
+        },
+        {
+          "parentId": 68,
+          "nextId": 73,
+          "node": {
+            "type": 3,
+            "textContent": ".igvzJn{font-family:roboto;font-weight:700;}",
+            "isStyle": true,
+            "id": 74
+          }
+        },
+        {
+          "parentId": 68,
+          "nextId": 74,
+          "node": {
+            "type": 3,
+            "textContent": ".igvzJp{font-family:roboto;font-weight:500;}",
+            "isStyle": true,
+            "id": 75
+          }
+        },
+        {
+          "parentId": 68,
+          "nextId": 75,
+          "node": {
+            "type": 3,
+            "textContent": ".igvzJo{font-family:roboto;font-weight:400;}",
+            "isStyle": true,
+            "id": 76
+          }
+        },
+        {
+          "parentId": 68,
+          "nextId": 76,
+          "node": {
+            "type": 3,
+            "textContent": ".igvzJr{font-family:roboto;font-weight:300;}",
+            "isStyle": true,
+            "id": 77
+          }
+        },
+        {
+          "parentId": 68,
+          "nextId": 77,
+          "node": {
+            "type": 3,
+            "textContent": ".igvzJt{font-family:roboto;font-weight:100;}",
+            "isStyle": true,
+            "id": 78
+          }
+        },
+        {
+          "parentId": 68,
+          "nextId": 78,
+          "node": {
+            "type": 3,
+            "textContent": ".dWTrLf{visibility:hidden;}",
+            "isStyle": true,
+            "id": 79
+          }
+        }
+      ]
+    },
+    "timestamp": 1776615385227
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 0,
+      "texts": [],
+      "attributes": [],
+      "removes": [],
+      "adds": [
+        {
+          "parentId": 4,
+          "nextId": null,
+          "node": {
+            "type": 2,
+            "tagName": "script",
+            "attributes": {
+              "src": "chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/js/recordConsoleEvents.js"
+            },
+            "childNodes": [],
+            "id": 80
+          }
+        }
+      ]
+    },
+    "timestamp": 1776615385227
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 3,
+      "id": 1,
+      "x": 0,
+      "y": 599.5
+    },
+    "timestamp": 1776615385228
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 1,
+      "positions": [
+        {
+          "x": 164,
+          "y": 4,
+          "id": 19,
+          "timeOffset": 0
+        }
+      ]
+    },
+    "timestamp": 1776615385290
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 1,
+      "positions": [
+        {
+          "x": 290,
+          "y": 92,
+          "id": 3,
+          "timeOffset": -443
+        },
+        {
+          "x": 484,
+          "y": 221,
+          "id": 52,
+          "timeOffset": -393
+        },
+        {
+          "x": 586,
+          "y": 281,
+          "id": 52,
+          "timeOffset": -343
+        }
+      ]
+    },
+    "timestamp": 1776615385791
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 3,
+      "id": 1,
+      "x": 0,
+      "y": 599
+    },
+    "timestamp": 1776615386032
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 3,
+      "id": 1,
+      "x": 0,
+      "y": 250
+    },
+    "timestamp": 1776615386132
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 3,
+      "id": 1,
+      "x": 0,
+      "y": 119.5
+    },
+    "timestamp": 1776615386233
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 1,
+      "positions": [
+        {
+          "x": 594,
+          "y": 285,
+          "id": 52,
+          "timeOffset": -459
+        },
+        {
+          "x": 594,
+          "y": 285,
+          "id": 38,
+          "timeOffset": -26
+        }
+      ]
+    },
+    "timestamp": 1776615386290
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 3,
+      "id": 1,
+      "x": 0,
+      "y": 119
+    },
+    "timestamp": 1776615386434
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 3,
+      "id": 1,
+      "x": 0,
+      "y": 29
+    },
+    "timestamp": 1776615386534
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 3,
+      "id": 1,
+      "x": 0,
+      "y": 0
+    },
+    "timestamp": 1776615386636
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 1,
+      "positions": [
+        {
+          "x": 594,
+          "y": 285,
+          "id": 38,
+          "timeOffset": -476
+        },
+        {
+          "x": 594,
+          "y": 286,
+          "id": 31,
+          "timeOffset": -108
+        }
+      ]
+    },
+    "timestamp": 1776615386791
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 1,
+      "id": 31,
+      "x": 581.15625,
+      "y": 284.41796875
+    },
+    "timestamp": 1776615387013
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 5,
+      "id": 31
+    },
+    "timestamp": 1776615387014
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 0,
+      "id": 31,
+      "x": 581.15625,
+      "y": 284.41796875
+    },
+    "timestamp": 1776615387097
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 2,
+      "id": 31,
+      "x": 581,
+      "y": 284,
+      "pointerType": 0
+    },
+    "timestamp": 1776615387097
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 1,
+      "positions": [
+        {
+          "x": 586,
+          "y": 301,
+          "id": 31,
+          "timeOffset": -478
+        },
+        {
+          "x": 582,
+          "y": 292,
+          "id": 31,
+          "timeOffset": -428
+        },
+        {
+          "x": 581,
+          "y": 284,
+          "id": 31,
+          "timeOffset": -378
+        },
+        {
+          "x": 581,
+          "y": 284,
+          "id": 31,
+          "timeOffset": -320
+        }
+      ]
+    },
+    "timestamp": 1776615387293
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615387958
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615388045
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i a",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615388286
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615388390
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615388429
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am t",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615388745
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am ty",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615388882
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615388909
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typi",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615389157
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typin",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615389223
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615389249
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615389269
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing t",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615389477
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing th",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615389553
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing thi",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615389750
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing thin",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615389754
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing thing",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615389808
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615390405
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615390528
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things i",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615390702
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615390755
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615390783
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in h",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615390958
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in he",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615391007
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in her",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615391119
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615391190
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615391391
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here i",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615391724
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615391767
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615391815
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in t",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615391978
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in th",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615392044
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in thi",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615392089
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615392139
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615392223
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this b",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615392615
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this ba",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615392640
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this bas",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615392900
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basi",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615393037
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615393133
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615393227
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic f",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615393390
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic fo",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615393488
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic for",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615393587
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615393663
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form.",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615393950
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615394015
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. t",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615394439
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615395072
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. r",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615395392
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. re",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615395746
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. reb",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615396033
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebu",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615396057
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebui",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615396166
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuil",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615396304
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuild",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615396452
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuildi",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615396687
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuildin",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615396730
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615396818
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615396898
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding p",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615397036
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding pr",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615397200
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding pro",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615397229
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding prov",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615397433
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding provi",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615397500
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding provid",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615397678
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding provide",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615397858
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providen",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615397931
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providenc",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615398072
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615398099
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615398257
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615398685
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615399013
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'l",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615399240
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615399369
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615399486
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll b",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615399669
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615399985
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615400089
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be d",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615400224
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be do",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615400322
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be don",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615400350
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615400423
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615400469
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done v",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615400606
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done ve",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615400784
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done ver",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615400841
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615400850
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615400917
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very d",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615401048
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615401440
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very s",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615401560
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very so",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615401653
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soo",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615401746
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615402170
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615402327
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon b",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615402768
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bc",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615402959
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bco",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615403074
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615403175
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615403229
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz i",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615403335
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615403469
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615403642
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615403738
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a ",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615403793
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a b",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615404018
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a bu",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615404122
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a bui",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615404221
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a buil",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615404237
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a build",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615404308
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a builde",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615404537
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a builder",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615404625
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a builderr",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615404781
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a builderrr",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615404944
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a builderrrr",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615405125
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a builderrrrr",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615405293
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a builderrrrrr",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615405483
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a builderrrrrrr",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615405630
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a builderrrrrrrx",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615406192
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "i am typing things in here in this basic form. rebuilding providence i'll be done very soon bcoz im a builderrrrrrrxD",
+      "isChecked": false,
+      "id": 31
+    },
+    "timestamp": 1776615406387
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 1,
+      "positions": [
+        {
+          "x": 581,
+          "y": 284,
+          "id": 31,
+          "timeOffset": 0
+        }
+      ]
+    },
+    "timestamp": 1776615406827
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 1,
+      "positions": [
+        {
+          "x": 581,
+          "y": 284,
+          "id": 31,
+          "timeOffset": -400
+        },
+        {
+          "x": 579,
+          "y": 285,
+          "id": 31,
+          "timeOffset": -341
+        },
+        {
+          "x": 565,
+          "y": 289,
+          "id": 31,
+          "timeOffset": -291
+        },
+        {
+          "x": 545,
+          "y": 294,
+          "id": 31,
+          "timeOffset": -240
+        },
+        {
+          "x": 525,
+          "y": 301,
+          "id": 31,
+          "timeOffset": -183
+        },
+        {
+          "x": 520,
+          "y": 303,
+          "id": 24,
+          "timeOffset": -67
+        },
+        {
+          "x": 520,
+          "y": 307,
+          "id": 24,
+          "timeOffset": -15
+        }
+      ]
+    },
+    "timestamp": 1776615407327
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 1,
+      "id": 33,
+      "x": 501.12890625,
+      "y": 341.16015625
+    },
+    "timestamp": 1776615407742
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 6,
+      "id": 31
+    },
+    "timestamp": 1776615407743
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 0,
+      "id": 33,
+      "x": 501.12890625,
+      "y": 341.16015625
+    },
+    "timestamp": 1776615407815
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 2,
+      "id": 33,
+      "x": 501,
+      "y": 341,
+      "pointerType": 0
+    },
+    "timestamp": 1776615407815
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 5,
+      "id": 34
+    },
+    "timestamp": 1776615407815
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 2,
+      "id": 34,
+      "x": 501,
+      "y": 341,
+      "pointerType": 0
+    },
+    "timestamp": 1776615407816
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 5,
+      "text": "on",
+      "isChecked": true,
+      "id": 34
+    },
+    "timestamp": 1776615407816
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 1,
+      "positions": [
+        {
+          "x": 515,
+          "y": 321,
+          "id": 34,
+          "timeOffset": -459
+        },
+        {
+          "x": 514,
+          "y": 322,
+          "id": 34,
+          "timeOffset": -408
+        },
+        {
+          "x": 510,
+          "y": 323,
+          "id": 34,
+          "timeOffset": -352
+        },
+        {
+          "x": 509,
+          "y": 324,
+          "id": 34,
+          "timeOffset": -302
+        },
+        {
+          "x": 506,
+          "y": 328,
+          "id": 33,
+          "timeOffset": -245
+        },
+        {
+          "x": 504,
+          "y": 333,
+          "id": 33,
+          "timeOffset": -188
+        },
+        {
+          "x": 501,
+          "y": 340,
+          "id": 33,
+          "timeOffset": -138
+        }
+      ]
+    },
+    "timestamp": 1776615407828
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 1,
+      "positions": [
+        {
+          "x": 501,
+          "y": 340,
+          "id": 33,
+          "timeOffset": -302
+        },
+        {
+          "x": 502,
+          "y": 339,
+          "id": 33,
+          "timeOffset": -252
+        },
+        {
+          "x": 507,
+          "y": 339,
+          "id": 33,
+          "timeOffset": -195
+        },
+        {
+          "x": 543,
+          "y": 358,
+          "id": 24,
+          "timeOffset": -144
+        },
+        {
+          "x": 587,
+          "y": 398,
+          "id": 38,
+          "timeOffset": -94
+        },
+        {
+          "x": 607,
+          "y": 426,
+          "id": 40,
+          "timeOffset": -43
+        }
+      ]
+    },
+    "timestamp": 1776615408329
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 1,
+      "id": 43,
+      "x": 536.71484375,
+      "y": 488.96484375
+    },
+    "timestamp": 1776615408812
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 6,
+      "id": 34
+    },
+    "timestamp": 1776615408813
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 5,
+      "id": 43
+    },
+    "timestamp": 1776615408813
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 1,
+      "positions": [
+        {
+          "x": 608,
+          "y": 436,
+          "id": 40,
+          "timeOffset": -493
+        },
+        {
+          "x": 602,
+          "y": 453,
+          "id": 40,
+          "timeOffset": -444
+        },
+        {
+          "x": 588,
+          "y": 460,
+          "id": 38,
+          "timeOffset": -386
+        },
+        {
+          "x": 578,
+          "y": 465,
+          "id": 38,
+          "timeOffset": -336
+        },
+        {
+          "x": 569,
+          "y": 470,
+          "id": 38,
+          "timeOffset": -285
+        },
+        {
+          "x": 561,
+          "y": 475,
+          "id": 38,
+          "timeOffset": -233
+        },
+        {
+          "x": 556,
+          "y": 479,
+          "id": 38,
+          "timeOffset": -177
+        },
+        {
+          "x": 540,
+          "y": 487,
+          "id": 43,
+          "timeOffset": -127
+        }
+      ]
+    },
+    "timestamp": 1776615408829
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 0,
+      "id": 43,
+      "x": 536.71484375,
+      "y": 488.96484375
+    },
+    "timestamp": 1776615408857
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 2,
+      "id": 43,
+      "x": 536,
+      "y": 488,
+      "pointerType": 0
+    },
+    "timestamp": 1776615408857
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 0,
+      "texts": [],
+      "attributes": [],
+      "removes": [],
+      "adds": [
+        {
+          "parentId": 49,
+          "nextId": null,
+          "node": {
+            "type": 3,
+            "textContent": "Clicked!",
+            "id": 81
+          }
+        }
+      ]
+    },
+    "timestamp": 1776615408858
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 1,
+      "positions": [
+        {
+          "x": 536,
+          "y": 488,
+          "id": 43,
+          "timeOffset": -386
+        },
+        {
+          "x": 538,
+          "y": 487,
+          "id": 43,
+          "timeOffset": -327
+        },
+        {
+          "x": 542,
+          "y": 486,
+          "id": 43,
+          "timeOffset": -269
+        },
+        {
+          "x": 544,
+          "y": 486,
+          "id": 43,
+          "timeOffset": -219
+        },
+        {
+          "x": 557,
+          "y": 482,
+          "id": 38,
+          "timeOffset": -169
+        },
+        {
+          "x": 602,
+          "y": 462,
+          "id": 38,
+          "timeOffset": -119
+        },
+        {
+          "x": 685,
+          "y": 419,
+          "id": 38,
+          "timeOffset": -69
+        },
+        {
+          "x": 792,
+          "y": 346,
+          "id": 24,
+          "timeOffset": -19
+        }
+      ]
+    },
+    "timestamp": 1776615409330
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 1,
+      "positions": [
+        {
+          "x": 876,
+          "y": 272,
+          "id": 31,
+          "timeOffset": -468
+        },
+        {
+          "x": 945,
+          "y": 230,
+          "id": 29,
+          "timeOffset": -414
+        },
+        {
+          "x": 1041,
+          "y": 188,
+          "id": 24,
+          "timeOffset": -357
+        },
+        {
+          "x": 1123,
+          "y": 165,
+          "id": 3,
+          "timeOffset": -307
+        },
+        {
+          "x": 1213,
+          "y": 145,
+          "id": 3,
+          "timeOffset": -257
+        },
+        {
+          "x": 1307,
+          "y": 116,
+          "id": 3,
+          "timeOffset": -207
+        },
+        {
+          "x": 1373,
+          "y": 72,
+          "id": 3,
+          "timeOffset": -157
+        },
+        {
+          "x": 1421,
+          "y": 41,
+          "id": -1,
+          "timeOffset": -100
+        },
+        {
+          "x": 1429,
+          "y": 27,
+          "id": -1,
+          "timeOffset": -48
+        }
+      ]
+    },
+    "timestamp": 1776615409830
+  },
+  {
+    "type": 3,
+    "data": {
+      "source": 2,
+      "type": 6,
+      "id": 43
+    },
+    "timestamp": 1776615410051
+  }
+]
