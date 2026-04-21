@@ -21,6 +21,17 @@ app.use(express.json({ limit: '50mb' }));
 // because we want GET / to be the dashboard, not the lab.
 app.use(express.static(publicDir));
 
+// Demo page — a purpose-built buggy "checkout" that produces one of each
+// signal type with one click per button. Served from /demo/ (not /public/)
+// so the URL is shareable and separate from the raw lab page.
+app.get('/demo', (_req, res) => {
+  res.sendFile(join(__dirname, '..', 'demo', 'index.html'));
+});
+// Always-500 endpoint the demo's "Apply promo code" button fetches.
+app.get('/demo/500', (_req, res) => {
+  res.status(500).send('boom');
+});
+
 // Core pipeline: raw events in → stored SessionRecord + score out.
 app.post('/capture', async (req, res) => {
   try {
@@ -61,5 +72,6 @@ const port = Number(process.env.PORT ?? 3000);
 app.listen(port, () => {
   console.log(`Providence V2 at http://localhost:${port}`);
   console.log(`  Dashboard: http://localhost:${port}/`);
+  console.log(`  Demo:      http://localhost:${port}/demo`);
   console.log(`  Lab page:  http://localhost:${port}/app.html`);
 });
