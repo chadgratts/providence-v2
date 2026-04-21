@@ -89,7 +89,12 @@ const stopRecording = record({
 
 // Send events to /capture. Uses sendBeacon on unload for reliability,
 // and regular fetch when the user clicks "Stop & Send".
+// The `sent` guard prevents double-posting when both the Stop button AND
+// beforeunload fire for the same session (click Stop → navigate away).
+let sent = false;
 async function sendEvents() {
+  if (sent) return;
+  sent = true;
   const payload = JSON.stringify(events);
   if (typeof navigator.sendBeacon === 'function') {
     navigator.sendBeacon('/capture', new Blob([payload], { type: 'application/json' }));
