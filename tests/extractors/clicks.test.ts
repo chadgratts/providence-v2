@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { extractClickSignals } from '../../src/preprocessor/clicks.ts';
-import type { RawEvent } from '../../src/preprocessor/types.ts';
+import { extractClickSignals } from '../../src/extractors/clicks.ts';
+import type { RawEvent } from '../../src/types.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const fixture = (name: string): RawEvent[] =>

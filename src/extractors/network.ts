@@ -1,4 +1,4 @@
-import type { RawEvent, Signal } from './types.ts';
+import type { RawEvent, Signal } from '../types.ts';
 
 // Extracts failed_request signals from event type 50 (fetch events).
 // A request "fails" if:

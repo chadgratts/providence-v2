@@ -1,4 +1,4 @@
-import type { RawEvent, Signal } from './types.ts';
+import type { RawEvent, Signal } from '../types.ts';
 
 // rrweb MouseInteraction subtype values (see rrweb source).
 // We only care about Click (type 2) — MouseDown, MouseUp, Focus, etc. are noise.

@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { extractErrorSignals } from '../../src/preprocessor/errors.ts';
-import type { RawEvent } from '../../src/preprocessor/types.ts';
+import { extractErrorSignals } from '../../src/extractors/errors.ts';
+import type { RawEvent } from '../../src/types.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const fixture = (name: string): RawEvent[] =>

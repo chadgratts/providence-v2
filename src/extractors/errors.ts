@@ -1,4 +1,4 @@
-import type { RawEvent, Signal } from './types.ts';
+import type { RawEvent, Signal } from '../types.ts';
 
 // Extracts js_error (event type 52) and unhandled_rejection (event type 53)
 // signals from raw events. One signal per matching event — no deduping,
