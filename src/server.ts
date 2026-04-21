@@ -6,6 +6,7 @@ import { preprocess } from './extractors/index.ts';
 import { score } from './scorer.ts';
 import { createStorage, generateSessionId, type SessionRecord } from './storage.ts';
 import { renderDashboard } from './views/dashboard.ts';
+import { renderDetail } from './views/detail.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataDir = join(__dirname, '..', 'data');
@@ -49,20 +50,11 @@ app.get('/', async (_req, res) => {
   res.set('Content-Type', 'text/html').send(renderDashboard(sessions));
 });
 
-// Session detail — STUB. Task 13 replaces this with a timeline + LLM explainer.
+// Session detail — signal timeline + grounded LLM explainer.
 app.get('/sessions/:id', async (req, res) => {
   const record = await storage.getSession(req.params.id);
   if (!record) return res.status(404).send('Not found');
-  res.set('Content-Type', 'text/html').send(`<!DOCTYPE html>
-<html><head><title>session-${record.id} (stub)</title></head>
-<body style="font-family:ui-monospace,monospace;max-width:900px;margin:40px auto;padding:0 20px">
-  <p><a href="/">&larr; back</a></p>
-  <h1>session-${record.id} (stub)</h1>
-  <p style="color:#888">Detail stub — Task 13 will add a signal timeline + LLM explainer.</p>
-  <pre style="background:#f5f5f5;padding:16px;border-radius:6px;overflow:auto">${
-    JSON.stringify(record, null, 2)
-  }</pre>
-</body></html>`);
+  res.set('Content-Type', 'text/html').send(await renderDetail(record));
 });
 
 const port = Number(process.env.PORT ?? 3000);
