@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Providence V2 — Lab</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 20px; }
+    .section { margin: 24px 0; padding: 16px; border: 1px solid #ddd; border-radius: 8px; }
+    button { padding: 8px 16px; margin: 4px; cursor: pointer; }
+    input, textarea { padding: 8px; width: 100%; box-sizing: border-box; margin: 4px 0; }
+    #controls { position: fixed; top: 0; left: 0; right: 0; background: #111; color: #fff;
+      padding: 12px 20px; display: flex; justify-content: space-between; align-items: center;
+      z-index: 999; }
+    #event-count { font-family: monospace; }
+  </style>
+</head>
+<body>
+  <div id="controls" class="rr-block">
+    <span>rrweb recording... <span id="event-count">0</span> events</span>
+    <button id="stop-btn">Stop &amp; Send</button>
+  </div>
+  <h1 style="margin-top: 60px;">Providence V2 Lab</h1>
+  <p>Demo buttons (each triggers a signal). Click any combo, then press Stop &amp; Send.</p>
+  <div class="section">
+    <button onclick="throw new Error('test error')">Throw</button>
+    <button onclick="Promise.reject(new Error('rejected'))">Reject</button>
+    <button onclick="fetch('/does-not-exist')">Failing fetch</button>
+    <button id="dead">Dead button (no handler)</button>
+  </div>
+  <script type="module" src="/agent.js"></script>
+</body>
+</html>
