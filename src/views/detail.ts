@@ -30,7 +30,9 @@ function relTs(ts: number, sessionStart: number): string {
 }
 
 // One-line human summary of a single signal. Deliberately terse — the
-// detail page is about scanning, not reading paragraphs.
+// detail page is about scanning, not reading paragraphs. Target node ids
+// are intentionally omitted; the replay player shows which element was
+// clicked with far more fidelity than a numeric id ever could.
 function signalSummary(s: Signal): string {
   switch (s.kind) {
     case 'js_error':
@@ -38,9 +40,9 @@ function signalSummary(s: Signal): string {
     case 'unhandled_rejection':
       return esc(s.reason);
     case 'rage_click':
-      return `target #${esc(s.targetId)} — ${s.count} clicks in ${s.spanMs}ms`;
+      return `${s.count} clicks in ${s.spanMs}ms`;
     case 'dead_click':
-      return `target #${esc(s.targetId)} — no DOM reaction within 300ms`;
+      return `no DOM reaction within 300ms`;
     case 'failed_request':
       return `${esc(s.method)} ${esc(s.url)} → ${s.status}`;
   }
