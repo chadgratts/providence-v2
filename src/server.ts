@@ -61,6 +61,12 @@ app.get('/', async (_req, res) => {
   res.set('Content-Type', 'text/html').send(renderDashboard(sessions));
 });
 
+// Raw rrweb events for a session — consumed by the detail page's replay player.
+app.get('/sessions/:id/events', async (req, res) => {
+  const events = await storage.getRawEvents(req.params.id);
+  res.json(events);
+});
+
 // Session detail — signal timeline + grounded LLM explainer.
 app.get('/sessions/:id', async (req, res) => {
   const record = await storage.getSession(req.params.id);
